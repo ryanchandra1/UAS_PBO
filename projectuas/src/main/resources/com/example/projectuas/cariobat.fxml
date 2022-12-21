@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="810.0" prefWidth="801.0" style="-fx-background-color: #FAEBD7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectuas.CariObatController">
+   <Label alignment="CENTER" layoutX="292.0" layoutY="24.0" prefHeight="25.0" prefWidth="218.0" text="Program Mencari Obat">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="74.0" layoutY="67.0" prefHeight="25.0" prefWidth="218.0" text="Mencari Obat Berdasarkan Abjad" textAlignment="JUSTIFY" underline="true">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="74.0" layoutY="233.0" prefHeight="25.0" prefWidth="87.0" text="Hasil " underline="true">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Button fx:id="btnB" layoutX="98.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionB" text="B" />
+   <Button fx:id="btnC" layoutX="161.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionC" text="C" />
+   <Button fx:id="btnD" layoutX="224.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionD" text="D" />
+   <Button fx:id="btnE" layoutX="292.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionE" text="E" />
+   <Button fx:id="btnF" layoutX="358.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionF" text="F" />
+   <Button fx:id="btnG" layoutX="423.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionG" text="G" />
+   <Button fx:id="btnH" layoutX="490.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionH" text="H" />
+   <Button fx:id="btnI" layoutX="554.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionI" text="I" />
+   <Button fx:id="btnJ" layoutX="616.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionJ" text="J" />
+   <Button fx:id="btnK" layoutX="681.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionK" text="K" />
+   <Button fx:id="btnL" layoutX="35.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionL" text="L" />
+   <Button fx:id="btnM" layoutX="98.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionM" text="M" />
+   <Button fx:id="btnN" layoutX="161.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionN" text="N" />
+   <Button fx:id="btnO" layoutX="224.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionO" text="O" />
+   <Button fx:id="btnP" layoutX="292.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionP" text="P" />
+   <Button fx:id="btnQ" layoutX="358.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionQ" text="Q" />
+   <Button fx:id="btnR" layoutX="423.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionR" text="R" />
+   <Button fx:id="btnS" layoutX="490.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionS" text="S" />
+   <Button fx:id="btnT" layoutX="554.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionT" text="T" />
+   <Button fx:id="btnU" layoutX="616.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionU" text="U" />
+   <Button fx:id="btnV" layoutX="681.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnonactionV" text="V" />
+   <Button fx:id="btnW" layoutX="35.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnonactionW" text="W" />
+   <Button fx:id="btnX" layoutX="98.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnonactionX" text="X" />
+   <Button fx:id="btnY" layoutX="161.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnonactionY" text="Y" />
+   <Button fx:id="btnZ" layoutX="224.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnonactionZ" text="Z" />
+   <Button fx:id="btnKeluar" layoutX="699.0" layoutY="754.0" mnemonicParsing="false" onAction="#btnonactionKeluar" prefHeight="42.0" prefWidth="87.0" text="Keluar" />
+   <Button fx:id="btnA" layoutX="35.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnonactionA" text="A" />
+   <Button fx:id="btnObat2" alignment="TOP_LEFT" layoutX="15.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnonactionObat2" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat3" alignment="TOP_LEFT" layoutX="15.0" layoutY="347.0" mnemonicParsing="false" onAction="#btnonactionObat3" prefHeight="22.0" prefWidth="294.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat4" alignment="TOP_LEFT" layoutX="15.0" layoutY="383.0" mnemonicParsing="false" onAction="#btnonactionObat4" prefHeight="22.0" prefWidth="294.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat5" alignment="TOP_LEFT" layoutX="15.0" layoutY="420.0" mnemonicParsing="false" onAction="#btnonactionObat5" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat6" alignment="TOP_LEFT" layoutX="15.0" layoutY="456.0" mnemonicParsing="false" onAction="#btnonactionObat6" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat7" alignment="TOP_LEFT" layoutX="15.0" layoutY="491.0" mnemonicParsing="false" onAction="#btnonactionObat7" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat1" alignment="TOP_LEFT" layoutX="15.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnonactionObat1" prefHeight="22.0" prefWidth="190.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat8" alignment="TOP_LEFT" layoutX="15.0" layoutY="527.0" mnemonicParsing="false" onAction="#btnonactionObat8" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat9" alignment="TOP_LEFT" layoutX="15.0" layoutY="561.0" mnemonicParsing="false" onAction="#btnonactionObat9" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat10" alignment="TOP_LEFT" layoutX="15.0" layoutY="591.0" mnemonicParsing="false" onAction="#btnonactionObat10" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat11" alignment="TOP_LEFT" layoutX="15.0" layoutY="628.0" mnemonicParsing="false" onAction="#btnonactionObat11" prefHeight="22.0" prefWidth="190.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat12" alignment="TOP_LEFT" layoutX="167.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnonactionObat12" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat13" alignment="TOP_LEFT" layoutX="167.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnonactionObat13" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat14" alignment="TOP_LEFT" layoutX="167.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnonactionObat14" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat15" alignment="TOP_LEFT" layoutX="167.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnonactionObat15" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat16" alignment="TOP_LEFT" layoutX="167.0" layoutY="416.0" mnemonicParsing="false" onAction="#btnonactionObat16" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat17" alignment="TOP_LEFT" layoutX="167.0" layoutY="452.0" mnemonicParsing="false" onAction="#btnonactionObat17" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat18" alignment="TOP_LEFT" layoutX="167.0" layoutY="487.0" mnemonicParsing="false" onAction="#btnonactionObat18" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat19" alignment="TOP_LEFT" layoutX="167.0" layoutY="523.0" mnemonicParsing="false" onAction="#btnonactionObat19" prefHeight="22.0" prefWidth="190.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat20" alignment="TOP_LEFT" layoutX="167.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnonactionObat20" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat21" alignment="TOP_LEFT" layoutX="167.0" layoutY="587.0" mnemonicParsing="false" onAction="#btnonactionObat21" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat22" alignment="TOP_LEFT" layoutX="167.0" layoutY="624.0" mnemonicParsing="false" onAction="#btnonactionObat22" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat23" alignment="TOP_LEFT" layoutX="319.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnonactionObat23" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat24" alignment="TOP_LEFT" layoutX="319.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnonactionObat24" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat25" alignment="TOP_LEFT" layoutX="319.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnonactionObat25" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat26" alignment="TOP_LEFT" layoutX="319.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnonactionObat26" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat27" alignment="TOP_LEFT" layoutX="319.0" layoutY="416.0" mnemonicParsing="false" onAction="#btnonactionObat27" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat28" alignment="TOP_LEFT" layoutX="319.0" layoutY="452.0" mnemonicParsing="false" onAction="#btnonactionObat28" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat29" alignment="TOP_LEFT" layoutX="319.0" layoutY="487.0" mnemonicParsing="false" onAction="#btnonactionObat29" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat30" alignment="TOP_LEFT" layoutX="319.0" layoutY="523.0" mnemonicParsing="false" onAction="#btnonactionObat30" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat31" alignment="TOP_LEFT" layoutX="319.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnonactionObat31" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat32" alignment="TOP_LEFT" layoutX="319.0" layoutY="587.0" mnemonicParsing="false" onAction="#btnonactionObat32" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat33" alignment="TOP_LEFT" layoutX="319.0" layoutY="624.0" mnemonicParsing="false" onAction="#btnonactionObat33" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat34" alignment="TOP_LEFT" layoutX="481.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnonactionObat34" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat35" alignment="TOP_LEFT" layoutX="481.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnonactionObat35" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat36" alignment="TOP_LEFT" layoutX="481.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnonactionObat36" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat37" alignment="TOP_LEFT" layoutX="481.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnonactionObat37" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat38" alignment="TOP_LEFT" layoutX="481.0" layoutY="416.0" mnemonicParsing="false" onAction="#btnonactionObat38" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat39" alignment="TOP_LEFT" layoutX="481.0" layoutY="452.0" mnemonicParsing="false" onAction="#btnonactionObat39" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat40" alignment="TOP_LEFT" layoutX="481.0" layoutY="487.0" mnemonicParsing="false" onAction="#btnonactionObat40" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat41" alignment="TOP_LEFT" layoutX="481.0" layoutY="523.0" mnemonicParsing="false" onAction="#btnonactionObat41" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat42" alignment="TOP_LEFT" layoutX="481.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnonactionObat42" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat43" alignment="TOP_LEFT" layoutX="481.0" layoutY="587.0" mnemonicParsing="false" onAction="#btnonactionObat43" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat44" alignment="TOP_LEFT" layoutX="481.0" layoutY="624.0" mnemonicParsing="false" onAction="#btnonactionObat44" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat45" alignment="TOP_LEFT" layoutX="635.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnonactionObat45" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat46" alignment="TOP_LEFT" layoutX="635.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnonactionObat46" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat47" alignment="TOP_LEFT" layoutX="635.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnonactionObat47" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat48" alignment="TOP_LEFT" layoutX="635.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnonactionObat48" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat49" alignment="TOP_LEFT" layoutX="635.0" layoutY="416.0" mnemonicParsing="false" onAction="#btnonactionObat49" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat50" alignment="TOP_LEFT" layoutX="635.0" layoutY="452.0" mnemonicParsing="false" onAction="#btnonactionObat50" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat51" alignment="TOP_LEFT" layoutX="635.0" layoutY="487.0" mnemonicParsing="false" onAction="#btnonactionObat51" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat52" alignment="TOP_LEFT" layoutX="635.0" layoutY="523.0" mnemonicParsing="false" onAction="#btnonactionObat52" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat53" alignment="TOP_LEFT" layoutX="635.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnonactionObat53" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat54" alignment="TOP_LEFT" layoutX="635.0" layoutY="587.0" mnemonicParsing="false" onAction="#btnonactionObat54" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Button fx:id="btnObat55" alignment="TOP_LEFT" layoutX="635.0" layoutY="624.0" mnemonicParsing="false" onAction="#btnonactionObat55" prefHeight="18.0" prefWidth="145.0" style="-fx-background-color: #FAEBD7;" textAlignment="JUSTIFY" />
+   <Label fx:id="lblKosong" alignment="TOP_LEFT" layoutX="286.0" layoutY="284.0" prefHeight="27.0" prefWidth="229.0" textAlignment="JUSTIFY" />
+   <Label fx:id="lblDeskripsiObat" alignment="TOP_LEFT" layoutX="16.0" layoutY="685.0" prefHeight="125.0" prefWidth="678.0" textAlignment="JUSTIFY">
+      <font>
+         <Font size="11.0" />
+      </font></Label>
+   <Label alignment="CENTER" layoutX="44.0" layoutY="650.0" prefHeight="42.0" prefWidth="87.0" text="Pengertian" underline="true">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Label>
+   <Line endX="423.00006103515625" layoutX="378.0" layoutY="662.0" startX="-378.0" />
+</AnchorPane>
